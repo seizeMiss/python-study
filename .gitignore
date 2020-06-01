@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 /mySpider/itcastbook.csv
 /mySpider/itcast.csv
+/mySpider/.idea/
