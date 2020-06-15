@@ -1,7 +1,7 @@
 # /usr/bin/env python
 # -*- coding: UTF-8 -*-
 """this a test class module"""
-import test_class
+from basic import test_class
 
 
 def sort(a, b, c):

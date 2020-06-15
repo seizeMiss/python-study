@@ -15,7 +15,7 @@ if __name__ == '__main__':
         node.text = "vRAL"
 
         f = tempfile.NamedTemporaryFile(mode="w", delete=False)
-        f.close();
+        f.close()
         tree.write(f.name, encoding="utf-8", xml_declaration=True)
         shutil.move(f.name, CONFIG)
     except Exception as e:
