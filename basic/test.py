@@ -14,6 +14,11 @@ def get_name(param):
     return param
 
 
+def greet_me(**kwargs):
+    for key, val in kwargs.items():
+        print("{0} == {1}" . format(key, val))
+
+
 if __name__ == '__main__':
     str1 = "hello"
     str1 += " aa"
@@ -81,3 +86,5 @@ if __name__ == '__main__':
     result = lambda radius: math.pi * radius * radius
     print("半径为r", r, '的圆的面积是：', result(r))
     print(result)
+
+    greet_me(name='lance', age='25')
