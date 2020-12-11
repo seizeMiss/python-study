@@ -1,7 +1,7 @@
 import pymysql as conn
 
 #  打开数据库链接
-db = conn.connect('localhost', 'root', 'root', 'wallet')
+db = conn.connect('localhost', 'root', 'root', 'newwallet')
 #  使用cursor() 方法创建已给游标对象cursor
 cursor = db.cursor()
 #  执行execut()方法执行sql查询
